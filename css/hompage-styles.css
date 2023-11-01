@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 div.main {
@@ -9,6 +10,13 @@ div.main {
 
 .left-side, .right-side {
     flex: 0.5;
+    align-self: flex-start;
+    margin-top: 200px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
 }
 
 .main-content {
@@ -20,5 +28,4 @@ div.main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 20px;
 }
