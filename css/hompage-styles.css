@@ -29,3 +29,8 @@ div.main {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
