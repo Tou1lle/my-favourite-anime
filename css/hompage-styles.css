@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+div.main {
+    display: flex;
+}
+
+.left-side, .right-side {
+    flex: 0.5;
+}
+
+.main-content {
+    flex: 2;
+}
