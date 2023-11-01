@@ -57,10 +57,12 @@ img {
 
 .header-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h1 {
@@ -80,8 +82,21 @@ footer {
     font-weight: bold;
     background-color: black;    
     padding: 30px;
+    font-size: x-small;
 }
 
 h2 {
     border-bottom: 1px solid gold;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.git-link, li{
+    text-decoration: none;
+    color: gold;
 }
