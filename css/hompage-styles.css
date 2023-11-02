@@ -43,7 +43,7 @@ main.main {
     height: 300px; 
     width: 400px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.40) 0px 12px 13px;
+    box-shadow: 2px 9px 19px 2px #000000;
     overflow: hidden;
 }
 
