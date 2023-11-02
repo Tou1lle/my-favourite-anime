@@ -6,7 +6,7 @@ body {
     margin: 0px;
 }
 
-div.main {
+main.main {
     display: flex;
 }
 
