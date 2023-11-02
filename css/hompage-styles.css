@@ -23,6 +23,8 @@ main.main {
     background-color: black;
     color: white;
     padding: 0 20px;
+    position: sticky;
+    top: 100px; 
 }
 
 .main-content {
