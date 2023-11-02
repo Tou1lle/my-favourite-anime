@@ -94,9 +94,24 @@ ul {
     gap: 20px;
     list-style: none;
     font-size: 20px;
+    padding: 10px;
 }
 
-.git-link, li{
+.git-link, li, address{
     text-decoration: none;
     color: gold;
+}
+
+a:hover {
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+address {
+    font-size: 20px;
+    padding: 10px;
 }
