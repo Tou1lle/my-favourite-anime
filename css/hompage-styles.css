@@ -66,8 +66,6 @@ img {
 }
 
 h1 {
-    text-align: center;
-    display: inline-block;
     padding: 5px 20px;
     border: 2px solid gold;
     border-radius: 20px;
