@@ -73,6 +73,7 @@ h1 {
     border-radius: 20px;
     background-color: gold;
     margin-bottom: 30px;
+    font-size: 2.5vw;
 }
 
 footer {
@@ -87,13 +88,18 @@ footer {
 
 h2 {
     border-bottom: 1px solid gold;
+    font-size: 1.7vw;
+}
+
+.about {
+    font-size: 1.12vw;
 }
 
 ul {
     display: flex;
     gap: 20px;
     list-style: none;
-    font-size: 20px;
+    font-size: 1.3vw;
     padding: 10px;
 }
 
@@ -112,6 +118,6 @@ a:hover {
 }
 
 address {
-    font-size: 20px;
+    font-size: 1.3vw;
     padding: 10px;
 }
