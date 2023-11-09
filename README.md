@@ -42,3 +42,9 @@ bluelock manga covers:
 https://cz.pinterest.com/ThI3s/blue-lock-volumes-covers/
 eight bit logo:
 https://en.wikipedia.org/wiki/Eight_Bit_(studio)
+
+Movie databases logo
+https://www.google.com/search?sca_esv=580917885&rlz=1C1VDKB_enCZ1078CZ1078&sxsrf=AM9HkKlJFrC9jIR92zfBNoh5CxzVXy3lPA:1699553806770&q=my+anime+list+logo&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjJ77anw7eCAxU1gP0HHXAGAR4Q0pQJegQICxAB&biw=1440&bih=743&dpr=2#imgrc=mrUSdjTQwwB-EM
+https://www.google.com/search?q=imdb+logo+png+transparent&tbm=isch&ved=2ahUKEwjogs7qwreCAxVB4gIHHSBsDdsQ2-cCegQIABAA&oq=imdb+logo+p&gs_lcp=CgNpbWcQARgBMgcIABATEIAEMgcIABATEIAEMggIABAFEB4QEzIICAAQCBAeEBMyCAgAEAgQHhATMggIABAIEB4QEzIICAAQCBAeEBM6BAgjECc6BggAEAcQHlCUAVjNAmCrEGgAcAB4AIABT4gB0QGSAQEzmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=jyFNZaj_DMHEi-gPoNi12A0&bih=743&biw=1440&rlz=1C1VDKB_enCZ1078CZ1078#imgrc=x5hmCdbaSRY_XM
+https://www.google.com/search?sca_esv=580917885&rlz=1C1VDKB_enCZ1078CZ1078&sxsrf=AM9HkKnv8GiPsDjD2CWUrzzInqnQc9pfxQ:1699554048935&q=rotten+tomatoes+logo&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiEzfOaxLeCAxVp_rsIHYjZBEQQ0pQJegQIDBAB&biw=1440&bih=743&dpr=2#imgrc=PP5OoRUm4OOGmM
+https://www.google.com/search?q=%C4%8Dsfd+logo&tbm=isch&chips=q:%C4%8Dsfd+logo,online_chips:film%C5%AF:IKiXhKugSS8%3D&rlz=1C1VDKB_enCZ1078CZ1078&hl=cs&sa=X&ved=2ahUKEwiy7YTYw7eCAxUK2gIHHcwGCgcQ4lYoAXoECAEQNg&biw=1423&bih=743#imgrc=ZUbb-gF1NKyKZM

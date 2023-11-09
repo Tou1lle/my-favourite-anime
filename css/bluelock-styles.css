@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 240px;
@@ -46,4 +51,46 @@
   /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .header-container.bluelock {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .header.bluelock {
+    color: white;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 2.5rem;
+  }
+
+  .navigation.other.sites {
+    background-color: blue;
+  }
+
+  .list.of.other.sites {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 15px;
+    margin: 0px;
+  }
+
+  .list.of.other.sites li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+  }
+
+  .list.of.other.sites li a:hover {
+    background-color: black;
   }
