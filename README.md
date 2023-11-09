@@ -37,3 +37,8 @@ https://myanimelist.net/character/6356/Joseph_Joestar
 https://myanimelist.net/character/4003/Joutarou_Kuujou
 https://myanimelist.net/character/8945/Noriaki_Kakyouin
 https://myanimelist.net/character/11222/Jolyne_Kuujou
+
+bluelock manga covers:
+https://cz.pinterest.com/ThI3s/blue-lock-volumes-covers/
+eight bit logo:
+https://en.wikipedia.org/wiki/Eight_Bit_(studio)
