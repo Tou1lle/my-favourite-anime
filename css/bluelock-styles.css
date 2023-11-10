@@ -1,96 +1,95 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-/* Slideshow container */
-.slideshow-container {
-    max-width: 240px;
-    position: relative;
-    margin-left: 20px;
-  }
-  
-/* Hide the images by default */
-.mySlides {
-    display: none;
-  } 
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
 
-  /* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: rgba(77, 77, 77, 0.8);
-  }
+.header-container.bluelock {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+}
 
-  
-/* Position the "next button" to the right */
-.next {
-    right: -10px;
-    border-radius: 3px 0 0 3px;
-  }
+.header.bluelock {
+  flex: auto;
+  color: white;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 2.5rem;
+}
 
-  .prev {
-    left: -10px;
-    border-radius: 3px 0 0 3px;
-  }
+.navigation.other.sites {
+  flex: auto;
+  background-color: rgb(0, 21, 255);
+  width: 100%;
+}
 
-  /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
+.list.of.other.sites {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 15px;
+  margin: 0px;
+  justify-content: center;
+}
 
-  body {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-  }
+.list.of.other.sites li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
 
-  .header-container.bluelock {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-  }
+.list.of.other.sites li a:hover {
+  background-color: black;
+}
 
-  .header.bluelock {
-    color: white;
-    width: fit-content;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-size: 2.5rem;
-  }
+main.main-content {
+  display: flex;
+}
 
-  .navigation.other.sites {
-    background-color: blue;
-  }
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+  flex: auto;
+  margin: 25px;
+  padding: 15px;
+  width: 20vw;
+  height: 350px;
+  position: sticky;
+  top: 30px;
+}
 
-  .list.of.other.sites {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    padding: 15px;
-    margin: 0px;
-  }
+.list.of.contents{
+  border-left: 2px solid grey;
+  margin-top: 0px;
+  width: fit-content;
+}
 
-  .list.of.other.sites li a {
-    text-decoration: none;
-    color: white;
-    padding: 15px;
-  }
+.list.of.contents li{
+  list-style: none;
+  margin-bottom: 15px;
+}
 
-  .list.of.other.sites li a:hover {
-    background-color: black;
-  }
+.header.contents {
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+}
+
+.anchor-header {
+  text-decoration: none;
+  color: black;
+}
