@@ -5,7 +5,7 @@ html {
 body {
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0px;
+    margin: 0;
 }
  
 /* header with contact information */
@@ -136,3 +136,82 @@ footer {
 }
 
 /* ALL media queries for responsivness*/
+@media screen and (max-width: 1340px){
+    main.main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .right-side, .left-side {
+        height: fit-content;
+        width: 400px;
+        margin-top: 0px;
+        margin: auto;
+    }
+
+    .right-side {
+        order: 2;
+    }
+    
+    .main-content {
+        order: 3;
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+}
+
+@media  screen and (max-width: 500px){
+    h1 {
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.7rem;
+    }
+
+    .header-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: auto;
+    }
+
+    ul, address {
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+
+    .about {
+        font-size: 0.6rem;
+    }
+
+    .right-side, .left-side {
+        height: fit-content;
+        width: 300px;
+        margin-top: 0px;
+        margin: auto;
+    }
+
+    .img-container {
+        height: 150px; 
+        width: 200px;
+    }
+
+    footer {
+        font-size: 0.6rem;
+    } 
+
+    .header-container, 
+    .left-side,
+    .right-side,
+    .main-content {
+        margin-bottom: 10px;
+    }
+}
