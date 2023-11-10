@@ -9,8 +9,6 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0px;
 }
 
@@ -62,6 +60,9 @@ main.main-content {
   display: flex;
   padding: 20px;
   padding-left: 60px;
+  border-left: 10px solid #2e51a2;
+  border-right: 10px solid #2e51a2;
+  border-bottom: 10px solid #2e51a2;
 }
 
 /*list of headers content*/
@@ -101,6 +102,7 @@ main.main-content {
   color: black;
 }
 
+/*Add styling and font size to headers*/
 h2, h3 {
   border-left: 4px solid #2e51a2;
   padding-left: 4px;
@@ -114,6 +116,19 @@ h2, h3 {
   gap: 100px;
 }
 
+/*character section*/
 .character-img {
   border: 2px solid black;
+}
+
+.source {
+  font-size: 0.7rem;
+}
+
+/*footer of the page*/
+.page-footer {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: center  ;
 }
