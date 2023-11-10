@@ -106,3 +106,14 @@ h2, h3 {
   padding-left: 4px;
   font-size: 2rem;
 }
+
+.manga-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.character-img {
+  border: 2px solid black;
+}
