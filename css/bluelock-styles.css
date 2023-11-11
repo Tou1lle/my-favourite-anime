@@ -76,9 +76,9 @@ main.main-content {
   margin: 25px;
   padding: 15px;
   width: 20vw;
-  height: 350px;
+  height: 400px;
   position: sticky;
-  top: 30px;
+  top: 40px;
 }
 
 .list.of.contents{
@@ -94,12 +94,17 @@ main.main-content {
 
 .header.contents {
   font-size: 1.3rem;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .anchor-header {
   text-decoration: none;
   color: black;
+}
+
+.anchor-header:hover {
+  color: #2e51a2;
+  text-decoration: underline;
 }
 
 /*Add styling and font size to headers*/
