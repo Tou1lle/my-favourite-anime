@@ -31,6 +31,7 @@ function showSlides(n) {
 //based on img id
 const characters = ["isagi", "chigiri", "bachira", "kunigami"];
 const characterInfo = ["info-isagi", "info-chigiri", "info-bachira", "info-kunigami"];
+let characterImg = document.querySelectorAll(".character-img");
 let infoToDisplay = "info-";
 
 characters.forEach(function(id) {
@@ -38,6 +39,10 @@ characters.forEach(function(id) {
   img.addEventListener("click", function() {
     const defaultInfo = document.querySelector(".default-info");
     defaultInfo.style.display = "none";
+
+    characterImg.forEach(function(cImg) {
+      cImg.style.opacity = "0.7";
+    });
 
     characterInfo.forEach(function(infoId) {
       document.querySelector(`#${infoId}`).style.display = "none";
