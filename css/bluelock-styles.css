@@ -176,6 +176,13 @@ img[src^="../img/bluelock-imgs/characters/"]:hover {
   cursor: pointer;
 }
 
+#info-isagi,
+#info-bachira,
+#info-chigiri,
+#info-kunigami {
+  display: none;
+}
+
 /*footer of the page*/
 .page-footer {
   background-color: black;
