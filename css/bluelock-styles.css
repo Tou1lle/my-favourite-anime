@@ -198,7 +198,7 @@ img[src^="../img/bluelock-imgs/characters/"]:hover {
   text-align: center  ;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1400px){
   .contents {
     display: none;
   } 
@@ -206,11 +206,54 @@ img[src^="../img/bluelock-imgs/characters/"]:hover {
   main.main-content {
     padding: 5px;
   }
+
+  .bandai-studio,
+  .anime-studio {
+    flex-direction: column;
+  }
+
+  .power-system {
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-evenly;
+  }
+
+  .container-for-characters {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
 
 @media screen and (max-width: 900px){
   .manga-logo-container {
     flex-direction: column;
     gap: 20px
+  }
+}
+
+@media screen and (max-width: 600px){
+  .navigation.other.sites {
+    font-size: 0.5rem;
+  } 
+
+  .bluelock-logo{
+    width: 200px;
+    height: auto;
+  }
+
+  .isagi-weapon,
+  .chigiri-weapon {
+    width: 200px;
+    height: auto;
+  }
+
+  .bandai-logo,
+  .eightbit-logo {
+    width: 150px;
+    height: auto;
+  }
+
+  img[src="../img/bluelock-imgs/manga-covers/"] {
+    width: 100px;
   }
 }
