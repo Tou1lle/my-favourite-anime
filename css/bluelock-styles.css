@@ -1,33 +1,5 @@
-/*styles for whole document*/
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0px;
-}
-
-/*styles for header*/
-.header-container.bluelock {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  align-items: center;
-}
-
 .header.bluelock {
-  flex: auto;
-  color: white;
   background-color: #2e51a2;
-  width: fit-content;
-  padding: 5px 25px;
-  border-radius: 20px;
-  font-size: 2.5rem;
 }
 
 .navigation.other.sites {
@@ -36,70 +8,11 @@ body {
   width: 100%;
 }
 
-.list.of.other.sites {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  padding: 15px;
-  margin: 0px;
-  justify-content: center;
-}
-
-.list.of.other.sites li a {
-  text-decoration: none;
-  color: white;
-  padding: 15px;
-}
-
-.list.of.other.sites li a:hover {
-  background-color: black;
-}
-
 /*main body content*/
 main.main-content {
-  display: flex;
-  padding: 20px;
-  padding-left: 60px;
   border-left: 10px solid #2e51a2;
   border-right: 10px solid #2e51a2;
   border-bottom: 10px solid #2e51a2;
-}
-
-/*list of headers content*/
-.contents {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  order: 2;
-  flex: auto;
-  margin: 25px;
-  padding: 15px;
-  width: 20vw;
-  height: 400px;
-  position: sticky;
-  top: 40px;
-}
-
-.list.of.contents{
-  border-left: 2px solid grey;
-  margin-top: 0px;
-  width: fit-content;
-}
-
-.list.of.contents li{
-  list-style: none;
-  margin-bottom: 15px;
-}
-
-.header.contents {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-}
-
-.anchor-header {
-  text-decoration: none;
-  color: black;
 }
 
 .anchor-header:hover {
@@ -110,61 +23,11 @@ main.main-content {
 /*Add styling and font size to headers*/
 h2, h3 {
   border-left: 4px solid #2e51a2;
-  padding-left: 4px;
-  font-size: 2rem;
-}
-
-/*Manga section*/
-.manga-logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 100px;
-}
-
-/*Anime section*/
-.anime-studio {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 20px;
-  align-items: center;
 }
 
 .bandai-studio {
   display: flex;
   align-items: center;
-}
-
-.power-system {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
-img[alt*="weapon"] {
-  border: 2px solid black;
-}
-
-figure {
-  text-align: center;
-}
-
-/*character section*/
-.character-img {
-  border: 2px solid black;
-}
-
-.source {
-  font-size: 0.7rem;
-}
-
-.container-for-characters {
-  display: flex;
-  justify-content: space-between;
-}
-
-.character-container {
-  text-align: center;
 }
 
 img[src^="../img/bluelock-imgs/characters/"] {
@@ -178,9 +41,6 @@ img[src^="../img/bluelock-imgs/characters/"]:hover {
 
 .default-info {
   background-color: #2e51a2;
-  color: white;
-  text-align: center;
-  padding: 10px;
 }
 
 #info-isagi,
@@ -188,49 +48,6 @@ img[src^="../img/bluelock-imgs/characters/"]:hover {
 #info-chigiri,
 #info-kunigami {
   display: none;
-}
-
-/*footer of the page*/
-.page-footer {
-  background-color: black;
-  padding: 10px;
-  color: white;
-  text-align: center  ;
-}
-
-table {
-  width: 60vw;
-  border: 2px solid black;
-  margin: auto;
-}
-
-caption {
-  margin-bottom: 10px;
-}
-
-td, th {
-  border: 1px solid rgb(190,190,190);
-  padding: 10px 20px;
-}
-
-th {
-  background-color: rgb(235,235,235);
-}
-
-td {
-  text-align: center;
-}
-
-tr:nth-child(even) td {
-  background-color: rgb(250,250,250);
-}
-
-tr:nth-child(odd) td {
-  background-color: rgb(245,245,245);
-}
-
-tfoot {
-  font-weight: bold;
 }
 
 @media screen and (max-width: 1400px){

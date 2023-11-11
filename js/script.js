@@ -42,6 +42,7 @@ characters.forEach(function(id) {
 
     characterImg.forEach(function(cImg) {
       cImg.style.opacity = "0.7";
+      cImg.style.boxShadow = "2px 9px 19px 2px #000000";
     });
 
     characterInfo.forEach(function(infoId) {
@@ -50,5 +51,6 @@ characters.forEach(function(id) {
 
     document.querySelector(`#${infoToDisplay+id}`).style.display = "block";
     img.style.opacity = "1";
+    img.style.boxShadow = "2px 9px 19px 2px #042C7F";
   });
 });
