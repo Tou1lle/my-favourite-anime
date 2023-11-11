@@ -109,11 +109,39 @@ h2, h3 {
   font-size: 2rem;
 }
 
+/*Manga section*/
 .manga-logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 100px;
+}
+
+/*Anime section*/
+.anime-studio {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  align-items: center;
+}
+
+.bandai-studio {
+  display: flex;
+  align-items: center;
+}
+
+.power-system {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+img[alt*="weapon"] {
+  border: 2px solid black;
+}
+
+figure {
+  text-align: center;
 }
 
 /*character section*/
@@ -131,4 +159,21 @@ h2, h3 {
   padding: 10px;
   color: white;
   text-align: center  ;
+}
+
+@media screen and (max-width: 1200px){
+  .contents {
+    display: none;
+  } 
+
+  main.main-content {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .manga-logo-container {
+    flex-direction: column;
+    gap: 20px
+  }
 }
