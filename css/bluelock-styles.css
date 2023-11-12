@@ -106,10 +106,6 @@ img[src^="../img/bluelock-imgs/characters/"]:hover {
     height: auto;
   }
 
-  img[src="../img/bluelock-imgs/manga-covers/"] {
-    width: 100px;
-  }
-
   #isagi,
   #kunigami,
   #chigiri,

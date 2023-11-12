@@ -1,0 +1,170 @@
+.header.aot {
+    background-color: rgb(73, 14, 14);
+}
+
+.navigation.other.sites {
+    flex: auto;
+    background-color: rgb(73, 14, 14);
+    width: 100%;
+}
+
+main.main-content {
+    border-left: 10px solid rgb(73, 14, 14);
+    border-right: 10px solid rgb(73, 14, 14);
+    border-bottom: 10px solid rgb(73, 14, 14);
+}
+
+.anchor-header:hover {
+    color: rgb(73, 14, 14);
+    text-decoration: underline;
+}
+
+/*Add styling and font size to headers*/
+h2, h3 {
+    border-left: 4px solid rgb(73, 14, 14);
+}
+
+.section.of.manga-author {
+    display: flex;
+}
+
+.section.of.manga-author > * {
+    flex: 1;
+}
+
+img[src="../img/aot-imgs/logo/hajime.jpg"] {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.wit-studio,
+.mappa-studio {
+    display: flex;
+    align-items: center;
+}
+
+.wit-studio {
+    flex-direction: row-reverse;
+}
+
+#power-system-aot {
+    display: flex;
+}
+
+#power-system-aot > *{
+    flex: 1;
+}
+
+img[src^="../img/aot-imgs/power-system/"] {
+    border: 2px solid black;
+}
+
+img[src^="../img/aot-imgs/characters"] {
+    opacity: 0.7;
+    transition: 0.6s ease;
+}
+    
+img[src^="../img/aot-imgs/characters/"]:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.default-info {
+    background-color: rgb(73, 14, 14);
+}
+
+#info-eren,
+#info-levi,
+#info-erwin,
+#info-reiner {
+    display: none;
+}
+
+@media screen and (max-width: 1400px){
+    .contents {
+      display: none;
+    } 
+    
+    main.main-content {
+      padding: 5px;
+    }
+    
+    .container-for-characters {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .section.of.manga-author {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .picture.of.isayama {
+        width: 50%;
+        height: auto;
+    }
+
+    .wit-studio,
+    .mappa-studio {
+        flex-direction: column;
+    }
+
+    #power-system-aot {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .manga-logo-container {
+      flex-direction: column;
+      gap: 20px
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navigation.other.sites {
+      font-size: 0.5rem;
+    } 
+
+    .wit-logo,
+    .mappa-logo {
+      width: 150px;
+      height: auto;
+    }
+  
+    
+    .list.of.list.of.other.sites a {
+      padding: 0px;
+    }
+  
+    .power-system-container {
+      flex-direction: column;
+    }   
+    
+    #eren,
+    #levi,
+    #erwin,
+    #reiner {
+      width: 20vw;
+      height: auto;
+    }
+
+    .wit-studio,
+    .mappa-studio {
+        width: 100%;
+    }
+    
+    .character-header {
+      font-size: 0.5rem;
+    }
+  
+    #anime-jjk {
+      flex-direction: column;
+    }
+  
+    img[src^="../img/aot-imgs/power-system"] {
+      width: 70%;
+    }
+}
