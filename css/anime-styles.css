@@ -104,6 +104,12 @@ h2, h3 {
     gap: 100px;
 }
 
+img[src="../img/bluelock-imgs/logo/Blue_Lock_Logo.png"],
+img[src="../img/jjk-imgs/logo/jjk-logo.png"] {
+    width: 100%;
+    height: auto;
+}
+
 /*Anime section*/
 .anime-studio {
     display: flex;

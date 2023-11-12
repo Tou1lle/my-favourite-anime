@@ -66,3 +66,7 @@ https://cz.pinterest.com/search/pins/?q=jujutsu%20kaisen%20manga%20covers&rs=typ
 
 mappa
 https://www.google.com/search?sca_esv=581540659&rlz=1C1VDKB_enCZ1078CZ1078&sxsrf=AM9HkKlqWOw41xpYuQn4kL8AKZiTpkm5NA:1699720877919&q=mappa+logo&tbm=isch&source=lnms&sa=X&sqi=2&ved=2ahUKEwjS1JTZsbyCAxWKhv0HHfWVBLUQ0pQJegQIDBAB&biw=1440&bih=743&dpr=2#imgrc=FfSCP2N8uwpOvM
+
+aot manga 
+https://cz.pinterest.com/katlady98/aot-volume-covers/
+https://www.logosource.app/logos/attack-on-titan-logo

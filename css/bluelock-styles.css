@@ -32,11 +32,13 @@ h2, h3 {
 
 img[src^="../img/bluelock-imgs/characters/"] {
   opacity: 0.7;
+  transition: 0.6s ease;
 }
 
 img[src^="../img/bluelock-imgs/characters/"]:hover {
   opacity: 1;
   cursor: pointer;
+  transition: 0.6s ease;
 }
 
 .default-info {
@@ -90,11 +92,6 @@ img[src^="../img/bluelock-imgs/characters/"]:hover {
 
   .list.of.list.of.other.sites a {
     padding: 0px;
-  }
-
-  .bluelock-logo{
-    width: 200px;
-    height: auto;
   }
 
   .isagi-weapon,
