@@ -165,6 +165,6 @@ img[src^="../img/aot-imgs/characters/"]:hover {
     }
   
     img[src^="../img/aot-imgs/power-system"] {
-      width: 70%;
+      width: 100%;
     }
 }

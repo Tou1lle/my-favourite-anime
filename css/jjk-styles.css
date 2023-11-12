@@ -138,6 +138,6 @@ img[src^="../img/jjk-imgs/characters/"]:hover {
   }
 
   img[src^="../img/jjk-imgs/power-system"] {
-    width: 70%;
+    width: 100%;
   }
 }
