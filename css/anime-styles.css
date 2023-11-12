@@ -13,7 +13,7 @@ body {
 }  
 
 /*styles for header*/
-.header-container.bluelock {
+.header-container {
     display: flex;
     flex-direction: column;
     background-color: black;

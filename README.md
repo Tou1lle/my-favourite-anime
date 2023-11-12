@@ -40,6 +40,7 @@ https://myanimelist.net/character/11222/Jolyne_Kuujou
 
 bluelock manga covers:
 https://cz.pinterest.com/ThI3s/blue-lock-volumes-covers/
+https://commons.wikimedia.org/wiki/File:Blue_Lock_Logo.png
 eight bit logo:
 https://en.wikipedia.org/wiki/Eight_Bit_(studio)
 bandai namco logo:
@@ -54,3 +55,14 @@ https://www.google.com/search?q=%C4%8Dsfd+logo&tbm=isch&chips=q:%C4%8Dsfd+logo,o
 power system:
 https://www.youtube.com/watch?app=desktop&v=PrDO7Xi9TIg
 https://www.youtube.com/watch?app=desktop&v=TgWO5WgfDPA
+
+https://www.polygon.com/2020/12/29/22202875/jujutsu-kaisen-review
+https://jcrcomicarts.wordpress.com/2021/02/27/why-fans-say-nen-when-talking-jujutsu-kaisne-cursed-energy/
+
+jjk logo:
+https://commons.wikimedia.org/wiki/File:Jujutsu_Kaisen_logo_in_Japan.png
+manga cover:
+https://cz.pinterest.com/search/pins/?q=jujutsu%20kaisen%20manga%20covers&rs=typed
+
+mappa
+https://www.google.com/search?sca_esv=581540659&rlz=1C1VDKB_enCZ1078CZ1078&sxsrf=AM9HkKlqWOw41xpYuQn4kL8AKZiTpkm5NA:1699720877919&q=mappa+logo&tbm=isch&source=lnms&sa=X&sqi=2&ved=2ahUKEwjS1JTZsbyCAxWKhv0HHfWVBLUQ0pQJegQIDBAB&biw=1440&bih=743&dpr=2#imgrc=FfSCP2N8uwpOvM
