@@ -46,6 +46,11 @@ h2, h3 {
   flex: 1;
 }
 
+.itadori-cursed-energy,
+.nobara-cursed-energy {
+  border: 2px solid black;
+}
+
 img[src^="../img/jjk-imgs/characters"] {
   opacity: 0.7;
   transition: 0.6s ease;

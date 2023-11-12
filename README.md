@@ -70,3 +70,13 @@ https://www.google.com/search?sca_esv=581540659&rlz=1C1VDKB_enCZ1078CZ1078&sxsrf
 aot manga 
 https://cz.pinterest.com/katlady98/aot-volume-covers/
 https://www.logosource.app/logos/attack-on-titan-logo
+
+hajime
+https://www.hajimeisayama.com/about
+
+wit
+https://en.wikipedia.org/wiki/Wit_Studio
+
+power
+https://poggers.com/blogs/news/attack-on-titan-what-is-odm-gear
+https://attackontitan.fandom.com/wiki/Omni-directional_mobility_gear_(Anime)
