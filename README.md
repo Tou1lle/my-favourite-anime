@@ -80,3 +80,7 @@ https://en.wikipedia.org/wiki/Wit_Studio
 power
 https://poggers.com/blogs/news/attack-on-titan-what-is-odm-gear
 https://attackontitan.fandom.com/wiki/Omni-directional_mobility_gear_(Anime)
+
+
+jojo manga
+https://cz.pinterest.com/joaoebentes/jojos-bizarre-adventure-covers/
