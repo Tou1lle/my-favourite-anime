@@ -32,6 +32,20 @@ h2, h3 {
     flex: 1;
 }
 
+#power-system-jjk {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.power-system-container {
+    display: flex;
+}
+
+.power-system-text {
+    flex: 1;
+}
+
 img[src^="../img/jjk-imgs/characters"] {
     opacity: 0.7;
 }
@@ -50,4 +64,78 @@ img[src^="../img/jjk-imgs/characters/"]:hover {
 #info-nobara,
 #info-satoru {
     display: none;
+}
+
+@media screen and (max-width: 1400px){
+    .contents {
+      display: none;
+    } 
+  
+    main.main-content {
+      padding: 5px;
+    }
+  
+    .anime-studio {
+      flex-direction: column;
+    }
+  
+    .container-for-characters {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .manga-logo-container {
+      flex-direction: column;
+      gap: 20px
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navigation.other.sites {
+      font-size: 0.5rem;
+    } 
+  
+    .list.of.list.of.other.sites a {
+      padding: 0px;
+    }
+  
+    .jjk-logo{
+      width: 200px;
+      height: auto;
+    }
+  
+    .mappa-logo {
+      width: 70%;
+      height: auto;
+    }
+  
+    img[src="../img/jjk-imgs/manga-covers/"] {
+      width: 100px;
+    }
+
+    .power-system-container {
+        flex-direction: column;
+    }
+  
+    #yuuji,
+    #megumi,
+    #nobara,
+    #satoru {
+      width: 20vw;
+      height: auto;
+    }
+  
+    .character-header {
+      font-size: 0.5rem;
+    }
+
+    #anime-jjk {
+        flex-direction: column;
+    }
+
+    img[src^="../img/jjk-imgs/power-system"] {
+        width: 70%;
+    }
 }
