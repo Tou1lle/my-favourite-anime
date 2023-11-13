@@ -111,6 +111,11 @@ img[src="../img/aot-imgs/logo/aot-logo.png"] {
     height: auto;
 }
 
+img[src="../img/jojo-imgs/logo/jojo-logo.png"] {
+    width: 70%;
+    height: auto;
+}
+
 /*Anime section*/
 .anime-studio {
     display: flex;

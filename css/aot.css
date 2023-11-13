@@ -101,11 +101,6 @@ img[src^="../img/aot-imgs/characters/"]:hover {
         align-items: center;
     }
 
-    .picture.of.isayama {
-        width: 50%;
-        height: auto;
-    }
-
     .wit-studio,
     .mappa-studio {
         flex-direction: column;
@@ -158,10 +153,6 @@ img[src^="../img/aot-imgs/characters/"]:hover {
     
     .character-header {
       font-size: 0.5rem;
-    }
-  
-    #anime-jjk {
-      flex-direction: column;
     }
   
     img[src^="../img/aot-imgs/power-system"] {

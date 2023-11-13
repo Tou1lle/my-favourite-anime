@@ -35,8 +35,8 @@ https://myanimelist.net/character/46496/Erwin_Smith
 jojo's bizarre adventure characters:
 https://myanimelist.net/character/6356/Joseph_Joestar
 https://myanimelist.net/character/4003/Joutarou_Kuujou
-https://myanimelist.net/character/8945/Noriaki_Kakyouin
 https://myanimelist.net/character/11222/Jolyne_Kuujou
+https://myanimelist.net/character/13085/Jousuke_Higashikata
 
 bluelock manga covers:
 https://cz.pinterest.com/ThI3s/blue-lock-volumes-covers/
@@ -84,3 +84,11 @@ https://attackontitan.fandom.com/wiki/Omni-directional_mobility_gear_(Anime)
 
 jojo manga
 https://cz.pinterest.com/joaoebentes/jojos-bizarre-adventure-covers/
+https://en.wikipedia.org/wiki/File:Jojo%27s_Bizarre_Adventure_%28English_logo%29.png
+https://en.wikipedia.org/wiki/David_Production
+
+araki
+https://jojowiki.com/Hirohiko_Araki
+
+stands
+https://jojowiki.com/List_of_Stands#Vento_Aureo-0
