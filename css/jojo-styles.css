@@ -130,6 +130,14 @@ img[src^="../img/jojo-imgs/characters/"]:hover {
     .list.of.list.of.other.sites a {
       padding: 0px;
     }
+
+    .stand-container {
+        flex-direction: column;
+    }
+
+    .stand-container:nth-child(odd) {
+        flex-direction: column
+    }
     
     #joseph,
     #jotaro,
