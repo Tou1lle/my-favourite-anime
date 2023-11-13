@@ -1,3 +1,150 @@
 .header.jojo {
-    background-color: rgb(224, 109, 128);
+    background-color: rgb(235, 73, 100);
+}
+
+.navigation.other.sites {
+    flex: auto;
+    background-color: rgb(235, 73, 100);
+    width: 100%;
+}
+
+main.main-content {
+    border-left: 10px solid rgb(235, 73, 100);
+    border-right: 10px solid rgb(235, 73, 100);
+    border-bottom: 10px solid rgb(235, 73, 100);
+}
+
+.anchor-header:hover {
+    color: rgb(235, 73, 100);
+    text-decoration: underline;
+}
+
+h2, h3 {
+    border-left: 4px solid rgb(235, 73, 100);
+}
+
+.section.of.manga-author {
+    display: flex;
+}
+
+.section.of.manga-author > * {
+    flex: 1;
+}
+
+img[src="../img/jojo-imgs/logo/araki.png"] {
+    border: 2px solid black;
+}
+
+.david-logo-img {
+    width: 100%;
+    height: auto;
+}
+
+#list-logo {
+    display: flex;
+}
+
+#list-logo > * {
+    flex: 1;
+}
+
+.stand-container {
+    display: flex;
+    border-bottom: 2px solid salmon;
+    align-items: center;
+}
+
+.stand-container > * {
+    flex: 1;
+}
+
+.stand-img {
+    width: 50%;
+    height: auto;
+}
+
+.stand-container:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+img[src^="../img/jojo-imgs/characters"] {
+    opacity: 0.7;
+    transition: 0.6s ease;
+}
+    
+img[src^="../img/jojo-imgs/characters/"]:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.default-info {
+    background-color: rgb(235, 73, 100);
+}
+
+#info-joseph,
+#info-jotaro,
+#info-jolyne,
+#info-josuke {
+    display: none;
+}
+
+@media screen and (max-width: 1400px){
+    .contents {
+      display: none;
+    } 
+    
+    main.main-content {
+      padding: 5px;
+    }
+    
+    .container-for-characters {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .section.of.manga-author {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .manga-logo-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px
+    }
+
+    #list-logo {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navigation.other.sites {
+      font-size: 0.5rem;
+    } 
+    
+    .list.of.list.of.other.sites a {
+      padding: 0px;
+    }
+    
+    #joseph,
+    #jotaro,
+    #jolyne,
+    #josuke {
+      width: 20vw;
+      height: auto;
+    }
+
+    .character-header {
+      font-size: 0.5rem;
+    }
+
+    img[src="../img/jojo-imgs/logo/araki.png"] {
+        width: 80%;
+        height: auto;
+    }
 }
