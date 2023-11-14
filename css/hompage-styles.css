@@ -141,6 +141,12 @@ footer {
     font-weight: bold;
     background-color: black;    
     padding: 30px;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+
+a[href*="resources/"] {
+    color: white;
     font-size: 0.8rem;
 }
 
@@ -212,7 +218,7 @@ footer {
     }
 
     footer {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     } 
 
     .header-container, 
