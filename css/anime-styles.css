@@ -209,3 +209,50 @@ tr:nth-child(odd) td {
 tfoot {
     font-weight: bold;
 }
+
+@media print {
+    main.main-content {
+        border: none !important;
+    }
+
+    h1 {
+        color: #000000 !important;
+    }
+
+    h2,
+    h3 {
+        border: none !important;
+    }
+
+    #info-isagi,
+    #info-bachira,
+    #info-kunigami,
+    #info-chigiri,
+    
+    #info-yuuji,
+    #info-megumi,
+    #info-nobara,
+    #info-satoru,
+    
+    #info-eren,
+    #info-reiner,
+    #info-levi,
+    #info-erwin,
+    
+    #info-joseph,
+    #info-jotaro,
+    #info-josuke,
+    #info-jolyne {
+        display: block !important;
+    }
+
+    .navigation.other.sites,
+    .manga-logo-container,
+    footer,
+    figure,
+    .contents,
+    .container-for-characters,
+    .default-info {
+        display: none;
+    }
+}
