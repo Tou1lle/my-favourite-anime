@@ -228,3 +228,46 @@ a[href*="resources/"] {
         margin-bottom: 10px;
     }
 }
+
+@media print {
+    .header-container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    h1 {
+        border: none;
+        margin: 0cm;
+    }
+    
+    .left-side {
+        margin-top: -5px;
+    }
+
+    .right-side {
+        order: 2;
+        margin-top: -5px;
+    }
+
+    .main-content {
+        order: 3;
+    }
+
+    main.main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    aside {
+        margin: 0;
+        color: #000000!important;
+        height: 1cm!important;
+    }
+
+    .img-container,
+    .contact-info,
+    img,
+    footer {
+        display: none;
+    }
+}
