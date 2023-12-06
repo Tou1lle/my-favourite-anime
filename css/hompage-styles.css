@@ -31,19 +31,23 @@ h1 {
 .contact-info {
     display: flex;
     align-items: center;
+    font-size: 0.9rem;
+    padding: 0px;
+    margin: 0px;
+    justify-content: end;
 }
 
 a.git-link:hover {
-    color: white;
-}
-
-.git-link, li, address{
-    text-decoration: none;
     color: gold;
 }
 
+.git-link, li, address{
+    text-decoration: none;  
+    color: white;
+}
+
 address {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     padding: 10px;
 }
 
@@ -136,13 +140,23 @@ h2 {
 /* Footer of the page */
 footer {
     margin-top: 20px;
+    padding: 0px 15px;
     text-align: center;
     color: white;
     font-weight: bold;
     background-color: black;    
-    padding: 30px;
     font-size: 0.9rem;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > * {
+    flex: 1;
+}
+
+.used-imgs {
+    text-align: start;
 }
 
 a[href*="resources/"] {
