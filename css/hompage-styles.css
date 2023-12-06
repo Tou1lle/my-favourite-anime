@@ -219,7 +219,7 @@ a[href*="resources/"] {
     h1 {
         margin-bottom: 15px;
         padding: 5px 10px;
-        font-size: 1.5rem;
+        font-size: 1.5rem!important;
     }
 
     h2 {
@@ -255,11 +255,16 @@ a[href*="resources/"] {
         font-size: 0.7rem;
     } 
 
-    .header-container, 
-    .left-side,
-    .right-side,
-    .main-content {
-        margin-bottom: 10px;
+    main {
+        padding-top: 10px;
+    }
+
+    .list.of.other.sites {
+        font-size: 0.5rem;
+    }
+
+    .list.of.list.of.other.sites a {
+        padding: 0px;
     }
 }
 

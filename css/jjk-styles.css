@@ -100,6 +100,10 @@ img[src^="../img/jjk-imgs/characters/"]:hover {
 }
 
 @media screen and (max-width: 600px){
+  h1 {
+    font-size: 1.5rem!important;
+  }
+
   .navigation.other.sites {
     font-size: 0.5rem;
   } 
