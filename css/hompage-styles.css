@@ -11,21 +11,40 @@ body {
 /* header with contact information */
 .header-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     background-color: black;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    align-items: center;
 }
 
-h1 {
-    padding: 5px 20px;
-    border: 2px solid gold;
+.header.main-header {
+    flex: auto;
+    color: white;
+    width: fit-content;
+    padding: 5px 25px;
     border-radius: 20px;
-    background-color: gold;
-    margin-bottom: 30px;
     font-size: 2.5rem;
+    background-color: gold;
+    color: #000000;
+}
+
+.list.of.other.sites {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 15px;
+    margin: 0px;
+    justify-content: center;
+}
+  
+.list.of.other.sites li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+  
+.list.of.other.sites li a:hover {
+    background-color: gold;
+    color: #000000;
 }
 
 .contact-info {
@@ -55,13 +74,15 @@ ul {
     display: flex;
     gap: 20px;
     list-style: none;
-    font-size: 1.3rem;
     padding: 10px;
 }
 
 /* main contains aside and main-content */
 main.main {
     display: flex;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    padding-bottom: 20px;
 }
 
 /* Content with anime links */
@@ -139,7 +160,6 @@ h2 {
 
 /* Footer of the page */
 footer {
-    margin-top: 20px;
     padding: 0px 15px;
     text-align: center;
     color: white;
